@@ -4,7 +4,7 @@ title: Daniel Hurley
 ---
   <h1 class="content-listing-header sans">Daniel Hurley</h1>
   <ul class="content">
-    {% for post in site.posts | where:'directory','research' %}
+    {% for post in {{ site.posts | where:'directory','research' }} %}
       <li class="listing">
       	<hr class="slender">
       	<a href="{{ post.url }}"><h4 class="contrast">{{ post.title }}</h4></a>
