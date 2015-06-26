@@ -3,10 +3,5 @@ layout: post
 title: About
 ---
 
-This is some test content on the About page.
+Daniel Hurley is a Research Fellow with the [Systems Biology Laboratory](http://www.bme.unimelb.edu.au/systems-biology/ "Systems Biology Laboratory") at the University of Melbourne. He has a background in software development project management, having worked in commercial IT for ten years following completion of his MSc in Medical Science. Daniel’s research focuses on the application of network and graph theory to infer gene regulatory networks with a general focus on cancer and other human diseases. This work is accomplished using both microarray and next-generation sequencing data for mRNA and miRNA gene expression. Daniel is also interested in developing improved methods of network structure and data visualisation.
 
-The *Tufte-Jekyll* theme is a natural extension of the work done by [Dave Leipmann](https://github.com/daveliepmann/tufte-css) on Github that created a CSS file that allows web writers to use the simple and elegant style employed by Edward Tufte in his published materials.
-
-To incorporate these styles into a Jekyll theme, I have made some very slight modifications that attempt to maintain the feel of the CSS styles in this repo.
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
