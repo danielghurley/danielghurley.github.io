@@ -2,7 +2,7 @@
 title: "Reproducible research"
 layout: post
 date:   2015-06-26 13:06:04
-directory: research
+directory: "research"
 ---
 
 ## Introduction
