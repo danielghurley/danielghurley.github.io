@@ -26,7 +26,8 @@ task :publish => [:generate] do
     system "git add ."
     system "git commit -am #{message.shellescape}"
     system "git push origin master --force"
-    system "git checkout master"
+    system "echo Switching back to source"
+    system "git checkout source"
     system "echo yolo"
   end
 end
