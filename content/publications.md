@@ -3,17 +3,15 @@ layout: post
 title: Publications List
 ---
 
+[My Google Scholar profile](https://goo.gl/btYl0b "My Google Scholar profile")
+
 ### Thesis  ###
 
-**Hurley DG.** Gene network inference and application. *PhD Thesis*, The University of Auckland. 2011.
+**Hurley DG.** Gene network inference and application. The University of Auckland. 2011.
 
-## Book chapters ##
+### Refereed journal articles ##
 
-Ellett, S., Ferguson, I. R., Shuotun, Z., Karunasinghe, N., Marlow, G., **Hurley, D. G.**, … Ferguson, L. R. (2013). Foodomics to Study Efficacy of Human Dietary Interventions. In *Nutrigenomics and Nutrigenetics in Functional Foods and Personalized Nutrition* (pp. 269–280). CRC Press.
-
-## Refereed journal articles ##
-
-Budden, D. M., **Hurley, D. G.**, & Crampin, E. J. (2015). Modelling the conditional regulatory activity of methylated and bivalent promoters. *Epigenetics & Chromatin (accepted)*
+Budden, D. M., **Hurley, D. G.**, & Crampin, E. J. (2015). [Modelling the conditional regulatory activity of methylated and bivalent promoters](http://www.epigeneticsandchromatin.com/content/8/1/21). *Epigenetics & Chromatin* 2015;8: 21. doi:10.1186/s13072-015-0013-9
 
 **Hurley, D. G.**, Budden, D. M., & Crampin, E. J. (2014). Virtual Reference Environments: a simple way to make research reproducible. *Briefings in Bioinformatics*, bbu043. doi:10.1093/bib/bbu043
 
@@ -31,7 +29,7 @@ Wang, Y. K., **Hurley, D. G.**, Schnell, S., Crampin, E. J., others, & Print, C.
 
 Wang, J., Guise, C. P., Hsu, H.-L., **Hurley, D.**, Wilson, W. R., & Patterson, A. V. (2013). Identification of reductases capable of metabolic activation of hypoxia targeting prodrug SN30000 and hypoxia marker EF5. In *Cancer Research* (Vol. 73, pp. 2111–2111).
 
-Blenkiron, C., **Hurley, D. G.**, Fitzgerald, S., Lasham, A., others, & Print, C. G. (2013). Links between the Oncoprotein YB-1 and Small Non-Coding RNAs in Breast Cancer. *PLOS ONE*, 8(11), e80171. doi:10.1371/journal.pone.0080171
+Blenkiron, C., **Hurley, D. G.**, Fitzgerald, S., Lasham, A., others, & Print, C. G. (2013). [Links between the Oncoprotein YB-1 and Small Non-Coding RNAs in Breast Cancer](http://dx.plos.org/10.1371/journal.pone.0080171). *PLOS ONE*, 8(11), e80171. doi:10.1371/journal.pone.0080171
 
 **Hurley, D.**, Araki, H., Tamada, Y., Dunmore, B., Sanders, D., Humphreys, S., … Print, C. G. (2012). Gene network inference and visualization tools for biologists: application to new human transcriptome datasets. *Nucleic Acids Research*, 40(6), 2377–2398. doi:10.1093/nar/gkr902
 
@@ -40,8 +38,12 @@ Grace, P. P. M., **Hurley, D.**, Barratt, D. T. D., Tsykin, A., Watkins, L. R., 
 Wang, L., **Hurley, D. G.**, (Joint first authorship),Watkins, W., Araki, H., Tamada, Y., Muthukaruppan, A., … Print, C. G. (2012). Cell cycle gene networks are associated with melanoma prognosis. *Plos One*, 7(4), e34247. doi:10.1371/journal.pone.0034247 
 
 Araki, H., **Hurley, D.**, Crampin, E., Print, C., & Kuhara, S. (2011). Gene Network Analysis and Application. *Biophysics (Seibutsu Butsuri)*, 51(4), 182–185.
+
+### Book chapters ###
+
+Ellett, S., Ferguson, I. R., Shuotun, Z., Karunasinghe, N., Marlow, G., **Hurley, D. G.**, … Ferguson, L. R. (2013). Foodomics to Study Efficacy of Human Dietary Interventions. In *Nutrigenomics and Nutrigenetics in Functional Foods and Personalized Nutrition* (pp. 269–280). CRC Press.
  
-## Other ##
+### Other ###
 Invited talks
 
 **Hurley, D.** *Networks in Computational Biology*. Winter School in Mathematical and Computational Biology, The University of Queensland Institute for Molecular Bioscience, Brisbane, July 2-6, 2013.
