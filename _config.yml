@@ -1,9 +1,9 @@
 baseurl: 
-title: Tufte
+title: Daniel Hurley - Network Systems Biology
 subtitle: Content-centric blogging
 author: Daniel Hurley
 simple_search: http://google.com/search
-description: Daniel Hurley - Network systems biology
+description: Daniel Hurley - Network Systems Biology
 name: tufte
 markdown: Kramdown
 kramdown:  
