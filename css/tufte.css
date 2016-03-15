@@ -267,7 +267,7 @@ h1.content-listing-header {
 hr.slender {
   border: 0;
   height: 1px;
-  margin-bottom: 2.8rem;
+  margin-bottom: 1.0rem;
   background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
   background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
   background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
@@ -403,7 +403,7 @@ h4 {
   font-style: italic;
   font-weight: 400;
   font-size: 1.6rem;
-  margin-top: 2.45rem;
+  margin-top: 1.2rem;
   margin-bottom: 0;
   line-height: 1.225; }
 
