@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A general language for networks</title>
+  <meta name="description" content="Network models have great potential  to uncover complex interactions and pathways not visible by other methods, but network modelling is still an ad hoc acti...">
+
+
+  <link rel="stylesheet" href="/css/tufte.css">	
+  
+
+  <!-- Google Fonts loaded here -->
+  <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  <link rel="canonical" href="/articles/16/grammar-of-networks">
+  <link rel="alternate" type="application/rss+xml" title="Daniel Hurley - Network Systems Biology" href="/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+		<a href="/"><img class="badge" src="/assets/img/badge_dh.png" alt="CH"></a>
+		<a href="/about">About</a>
+		<a href="/research">Research</a>
+		<a href="/content/teaching.html">Teaching</a>
+		<a href="/content/publications.html">Publications</a>
+	</nav>
+</header>
+    <article>
+      <h1>A general language for networks</h1>
+
+
+
+<p><span class="newthought">Network models have great potential</span>  to uncover complex interactions and pathways not visible by other methods, but network modelling is still an ad hoc activity, with no general theory to relate different approaches, <span class="marginnote">In Depth: <a href="http://danielghurley.github.io/grammarofnetworks">watch a web presentation of this work</a></span>  nor principles for determining what a network tells us about the biology that created it.<!--more-->  Progress in data-driven ‘network biology’ has been hampered by the lack of a general language for integrating different network methods from different domains of knowledge.  </p>
+
+<p>To overcome these obstacles, I am developing a <em>grammar of network methods</em>, an empirical grammar of data manipulation extended into graph theory.   The grammar is influenced by the statistical graphics work of Wilkinson<sup class="sidenote-number">1</sup><span class="sidenote"><sup class="sidenote-number">1</sup> See <a href="http://dx.doi.org/10.1007/0-387-28695-0">The Grammar of Graphics</a></span> and Wickham<sup class="sidenote-number">2</sup><span class="sidenote"><sup class="sidenote-number">2</sup> See <a href="http://dx.doi.org/10.1198/jcgs.2009.07098">A Layered Grammar of Graphics</a> and <a href="http://dx.doi.org/10.18637/jss.v059.i10">Tidy Data</a></span>, and allows us to describe the structure of different network methods (like the syntax in a human grammar) and relate them directly back to the biological data used to create the network, in order to uncover biological meaning (semantics).   Using simple graph elements and a declarative syntax, the grammar is able to describe existing network modelling in biology using a common set of concepts, focused particularly on network inference from genomic, proteomic and metabolomic data.   </p>
+
+<p><span class="newthought">The grammar of network methods</span>  is a new research direction stemming from work started during my PhD, where I integrated diverse mathematical and statistical methods of reverse-engineering transcriptomic networks<sup class="sidenote-number">3</sup><span class="sidenote"><sup class="sidenote-number">3</sup> <a href="http://dx.doi.org/10.1093/nar/gkr902">The initial computational framework</a> was written in MATLAB</span>, and applied these methods to generate and validate experimental hypotheses in transformed cell lines<sup class="sidenote-number">4</sup><span class="sidenote"><sup class="sidenote-number">4</sup> Applications in <a href="http://dx.doi.org/10.1371/journal.pone.0034247">melanoma prognosis</a> and <a href="http://dx.doi.org/10.1093/nar/gkr902">endothelial cell biology</a></span>.  The grammar develops this work by describing these existing analysis methods using a common language, and showing clearly their similarities and differences.  </p>
+
+<p>Specifically, my current research implements the grammar in two programming languages common in systems and computational biology (R and Python), and uses it to answer two major open questions in computational biology: the unification of ‘knowledge-based’ and ‘data-driven’ network methods, and the effect of ensemble network methods (the ‘wisdom of crowds’ effect).  </p>
+
+<p><span class="newthought">Completing this work</span>  will transform network modelling in biology, from an ad hoc activity where different methods exist in isolation from one another, into a principled, evidence-driven activity with heuristics for which methods are fruitful on which data for which outcomes.     </p>
+
+<h3 id="featured-publications">Featured publications</h3>
+
+<p><strong>Hurley, D. G.</strong>, Cursons, J., Wang, Y. K., Budden, D. M., Print, C. G., &amp; Crampin, E. J. (2014). <a href="http://bioinformatics.oxfordjournals.org/content/31/2/277.abstract">NAIL, a software toolset for inferring, analyzing and visualizing regulatory networks</a>. <em>Bioinformatics</em>, 31(2), 277–278. doi:10.1093/bioinformatics/btu612</p>
+
+<p><strong>Hurley, D.</strong>, Araki, H., Tamada, Y., Dunmore, B., Sanders, D., Humphreys, S., … Print, C. G. (2012). <a href="http://nar.oxfordjournals.org/lookup/doi/10.1093/nar/gkr902">Gene network inference and visualization tools for biologists: application to new human transcriptome datasets</a>. <em>Nucleic Acids Research</em>, 40(6), 2377–2398. doi:10.1093/nar/gkr902</p>
+
+
+
+    </article>
+    <span class="print-footer">A general language for networks - March 16, 2016 - Daniel Hurley</span>
+    <footer>
+  <ul class="footer-links group">
+    <li><a href="mailto:daniel[DOT]hurley[AT]unimelb[DOT]edu[DOT]au"><span class="icon-mail"></span></a></li>
+    
+      <li>
+        <a href="//www.twitter.com/danielhu"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/danielghurley"><span class="icon-github"></span></a>
+      </li>
+    
+      <li>
+        <a href="/feed"><span class="icon-feed"></span></a>
+      </li>
+    
+  </ul>
+<div class="credits">
+<span>&copy; 2016 &nbsp;&nbsp;DANIEL HURLEY</span></br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme</a> in <a href="//jekyllrb.com">Jekyll</a>.</span>
+</div>
+</footer>
+  </body>
+</html>

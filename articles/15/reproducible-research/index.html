@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Research reproducibility</title>
+  <meta name="description" content="Computational methods  should be among the most reproducible methods in the life sciences; First Look: watch a web presentation of this work  the environment...">
+
+
+  <link rel="stylesheet" href="/css/tufte.css">	
+  
+
+  <!-- Google Fonts loaded here -->
+  <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  <link rel="canonical" href="/articles/15/reproducible-research">
+  <link rel="alternate" type="application/rss+xml" title="Daniel Hurley - Network Systems Biology" href="/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+		<a href="/"><img class="badge" src="/assets/img/badge_dh.png" alt="CH"></a>
+		<a href="/about">About</a>
+		<a href="/research">Research</a>
+		<a href="/content/teaching.html">Teaching</a>
+		<a href="/content/publications.html">Publications</a>
+	</nav>
+</header>
+    <article>
+      <h1>Research reproducibility</h1>
+
+
+
+<p><span class="newthought">Computational methods</span>  should be among the most reproducible methods in the life sciences; <span class="marginnote">First Look: <a href="http://danielghurley.github.io/reference_environments">watch a web presentation of this work</a></span>  the environment and protocol for a computational method can be specified to a much greater degree, and with much greater precision, than a typical laboratory method.<!--more-->  Unfortunately, many published computational results remain hard to reproduce, and methods are often not specified in sufficient detail to replicate or re-implement.  I have proposed  techniques for building <em>reference environments</em><sup class="sidenote-number">1</sup><span class="sidenote"><sup class="sidenote-number">1</sup> Little bootstrapped open-source virtual environments for reproducing a single computational result.</span> enabling researchers to reproduce computational results precisely, with minimal effort, and implemented these for a range of results in computational biology<sup class="sidenote-number">2</sup><span class="sidenote"><sup class="sidenote-number">2</sup> Lots of published <a href="http://uomsystemsbiology.github.io/research/reference-environments/#examples-of-reference-environments">examples here</a></span>.  </p>
+
+<p><a href="http://uomsystemsbiology.github.io/research/reference-environments">My current research in this theme</a> extends this approach and set of tools to work across all major languages (R/Python/Java/MATLAB/Fortran/C) and platforms in systems and computational biology.  The method produces reference environments across three different reproducibility platforms: as a virtual machine, as a container, and as a cloud environment, all from a single set of configuration scripts.  Reference environments integrate readily with other reproducible research technologies, and can contain any type of language or computation.  </p>
+
+<p><span class="newthought">The reference environment approach</span>  <span class="marginnote">How do reference environments relate to other types of &#8216;reproducible research&#8217;?  <a href="http://uomsystemsbiology.github.io/research/reference-environments/#how-reference-environments-relate-to-other-reproducible-research-tools">I discuss that here</a></span>  explicitly separates the core scientific findings of a piece of computational research from the software implementation in which they are embedded, and allows readers and reviewers to choose the most appropriate implementation type for their situation.  Reference environments <span class="marginnote">&#8220;But why not just use &lt;currently popular reproducibility tool/website&gt;?&#8221;  <a href="http://dx.doi.org/10.1093/bib/bbu043">I discuss that here</a></span>  also have many applications in more general reproducibility; providing standard environments for testing or benchmarking, or in teaching to accelerate students&#8217; hands-on experience with tools and languages.   </p>
+
+<p><a href="http://danielghurley.github.io/reference_environments">Watch a web presentation of this work here</a></p>
+
+<h3 id="featured-publications">Featured publications</h3>
+
+<p><strong>Hurley, D. G.</strong>, Budden, D. M., &amp; Crampin, E. J. (2014). <a href="http://bib.oxfordjournals.org/content/early/2014/12/06/bib.bbu043.abstract">Virtual Reference Environments: a simple way to make research reproducible</a>. <em>Briefings in Bioinformatics</em>, bbu043. doi:10.1093/bib/bbu043</p>
+
+
+
+
+    </article>
+    <span class="print-footer">Research reproducibility - June 26, 2015 - Daniel Hurley</span>
+    <footer>
+  <ul class="footer-links group">
+    <li><a href="mailto:daniel[DOT]hurley[AT]unimelb[DOT]edu[DOT]au"><span class="icon-mail"></span></a></li>
+    
+      <li>
+        <a href="//www.twitter.com/danielhu"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/danielghurley"><span class="icon-github"></span></a>
+      </li>
+    
+      <li>
+        <a href="/feed"><span class="icon-feed"></span></a>
+      </li>
+    
+  </ul>
+<div class="credits">
+<span>&copy; 2016 &nbsp;&nbsp;DANIEL HURLEY</span></br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme</a> in <a href="//jekyllrb.com">Jekyll</a>.</span>
+</div>
+</footer>
+  </body>
+</html>
